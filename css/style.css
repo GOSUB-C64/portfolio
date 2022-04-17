@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d8d8d8;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap'); */
+.cover-pic {
+    width: 100%;
+    height: 300px;
+}
+
+.my-description {
+    position: relative;
+}
+
+.my-description h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 6em;
+    margin-top: .5em;
+    margin-left: .5em;
+    line-height: .6em;
+}
+
+.my-description h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 4em;
+    margin-left: 2em;
+}
+
+.myNavBar {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.myNavBar ul {
+    list-style-type: none;
+    display: flex;
+    padding-right: 50px;
+}
+
+.myNavBar a {
+    text-decoration: none;
+    color: #000;
+    margin: 20px;
+    font-size: 2em;
+    font-family: 'Teko', sans-serif;
+}
+
+.myNavBar a:hover {
+    text-decoration: underline;
+}
