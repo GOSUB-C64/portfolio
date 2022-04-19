@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #d8d8d8;
 }
@@ -17,7 +18,7 @@ body {
     position: relative;
 }
 
-.my-description h1{
+.my-description h1 {
     font-family: 'Teko', sans-serif;
     font-size: 6em;
     margin-top: .5em;
@@ -25,7 +26,7 @@ body {
     line-height: .6em;
 }
 
-.my-description h2{
+.my-description h2 {
     font-family: 'Teko', sans-serif;
     font-size: 4em;
     margin-left: 2em;
@@ -37,6 +38,7 @@ body {
     top: 0;
     right: 0;
 }
+
 .myNavBar ul {
     list-style-type: none;
     display: flex;
@@ -53,4 +55,23 @@ body {
 
 .myNavBar a:hover {
     text-decoration: underline;
+}
+
+.tech-container {
+    display: flex;
+}
+
+.frontend {
+    position: relative;
+    left: 8%;
+    font-size: 1.5em;
+    font-family: 'Teko', sans-serif;
+}
+
+.backend {
+    position: relative;
+    left: 25%;
+    top: 0;
+    font-size: 1.5em;
+    font-family: 'Teko', sans-serif;
 }
