@@ -78,19 +78,47 @@ body {
 
 .tech-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .img-resize {
     width: 50px;
     height: 50px;
     margin: 10px;
+    margin-top: 0;
 }
 
-.frontend {
-    width: 13%;
+#jquery {
+    width: 70px;
+}
+
+/* this is where the text is placed sise by side the images of the tech type */
+.frontend li {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
+    padding: 5px;
+}
+/* change a block element to an inline one to change its behavior, i.e. so that it sits alongside an image! */
+.frontend h2 {
+    display: inline;
+}
+.frontend ul {
+    list-style-type: none;
+}
+
+/*Backend Technologies */
+.backend li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.backend h2 {
+    display: inline;
+}
+.backend ul {
+    list-style-type: none;
+}
+
+#mysql {
+    width: 80px;
 }
