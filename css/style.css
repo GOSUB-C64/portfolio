@@ -84,8 +84,7 @@ body {
 .img-resize {
     width: 50px;
     height: 50px;
-    margin: 10px;
-    margin-top: 0;
+    margin: 0 10px 10px 0;
 }
 
 #jquery {
@@ -96,7 +95,7 @@ body {
 .frontend li {
     display: flex;
     align-items: center;
-    padding: 5px;
+    margin-bottom: 1em;
 }
 /* change a block element to an inline one to change its behavior, i.e. so that it sits alongside an image! */
 .frontend h2 {
@@ -114,6 +113,10 @@ body {
 }
 .backend h2 {
     display: inline;
+}
+
+.tech-header {
+    margin-top: 2em;
 }
 .backend ul {
     list-style-type: none;
