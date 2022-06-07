@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d8d8d8;
+    background-color: #817878;
 }
 
 /* @import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap'); */
@@ -137,7 +137,7 @@ body {
     width: 80%;
 }
 .javascript {
-    background-color: #d7bb2e;
+    background-color: #cfad04;
     width: 50%;
 }
 .jquery {
@@ -165,7 +165,7 @@ body {
     width: 35%;
 }
 .python {
-    background-color: #ffd13d;
+    background-color: #cfad04;
     width: 45%;
 }
 .sql {
